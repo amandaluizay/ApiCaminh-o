@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "scr\Business\Business.csproj", "{AE5CD577-19E1-43EC-B567-8887EB1D886D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "scr\Data\Data.csproj", "{E9EC3FE0-2416-4855-9903-CE4DA72688CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCaminhao", "scr\ApiCaminhao\ApiCaminhao.csproj", "{1B861BED-F011-4801-B714-E16A1AEC9FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5CD577-19E1-43EC-B567-8887EB1D886D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5CD577-19E1-43EC-B567-8887EB1D886D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5CD577-19E1-43EC-B567-8887EB1D886D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5CD577-19E1-43EC-B567-8887EB1D886D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EC3FE0-2416-4855-9903-CE4DA72688CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EC3FE0-2416-4855-9903-CE4DA72688CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EC3FE0-2416-4855-9903-CE4DA72688CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EC3FE0-2416-4855-9903-CE4DA72688CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B861BED-F011-4801-B714-E16A1AEC9FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B861BED-F011-4801-B714-E16A1AEC9FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B861BED-F011-4801-B714-E16A1AEC9FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B861BED-F011-4801-B714-E16A1AEC9FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19C71858-BE05-4E88-AFD6-D70A58FBCDB0}
+	EndGlobalSection
+EndGlobal
