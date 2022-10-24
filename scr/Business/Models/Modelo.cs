@@ -8,7 +8,7 @@ namespace Business.Models
 {
     public enum Modelo
     {
-        FH,
+        FH = 1,
         FM,
     }
 }

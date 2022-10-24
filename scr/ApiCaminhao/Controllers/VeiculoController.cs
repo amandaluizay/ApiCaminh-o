@@ -7,12 +7,12 @@ using System.Collections.Generic;
 
 namespace ApiCaminhao.Controllers
 {
-    [Route("api/categoria")]
+    [Route("api/Veiculos")]
     public class VeiculoController : MainController
     {
-        private readonly IVeiculoRepository _repository;
-        private readonly IVeiculoService _service;
-        private IMapper _mapper;
+        public readonly IVeiculoRepository _repository;
+        public readonly IVeiculoService _service;
+        public IMapper _mapper;
 
         public VeiculoController(IVeiculoRepository veiculoRepository, IVeiculoService veiculoService,
             IMapper mapper, INotificador notificador) : base(notificador)
@@ -34,11 +34,11 @@ namespace ApiCaminhao.Controllers
         // [Authorize]
         public async Task<ActionResult<VeiculoViewModel>> ObterpPorId(Guid id)
         {
-            var categoria = _mapper.Map<VeiculoViewModel>(await _repository.ObterPorId(id));
+            var veiculo = _mapper.Map<VeiculoViewModel>(await _repository.ObterPorId(id));
 
-            if (categoria == null) return NotFound();
+            if (veiculo == null) return NotFound();
 
-            return categoria;
+            return veiculo;
         }
 
 
@@ -47,6 +47,7 @@ namespace ApiCaminhao.Controllers
         {
             if (!ModelState.IsValid) return CostumResponse(ModelState);
 
+            await _repository.Adicionar(_mapper.Map<Veiculo>(veiculo));
 
             return CostumResponse(veiculo);
         }
@@ -70,7 +71,8 @@ namespace ApiCaminhao.Controllers
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<VeiculoViewModel>> Excluir(Guid id)
         {
-            var categoriaViewModel = _mapper.Map<VeiculoViewModel>(await _repository.ObterPorId(id));
+            var categoriaViewModel = await _repository.ObterPorId(id);
+
 
             if (categoriaViewModel == null) return NotFound();
 
@@ -79,10 +81,9 @@ namespace ApiCaminhao.Controllers
             return CostumResponse(categoriaViewModel);
         }
 
-
-
-
-
-
+        public Task Adicionar(Veiculo newTodo)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

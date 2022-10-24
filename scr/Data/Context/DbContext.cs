@@ -17,6 +17,7 @@ namespace c
 
 
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             foreach (var property in modelBuilder.Model.GetEntityTypes()

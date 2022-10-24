@@ -66,3 +66,12 @@ E:\Projetos\ApiCaminhão\scr\ApiCaminhao\obj\Debug\net6.0\refint\ApiCaminhao.dll
 E:\Projetos\ApiCaminhão\scr\ApiCaminhao\obj\Debug\net6.0\ApiCaminhao.pdb
 E:\Projetos\ApiCaminhão\scr\ApiCaminhao\obj\Debug\net6.0\ApiCaminhao.genruntimeconfig.cache
 E:\Projetos\ApiCaminhão\scr\ApiCaminhao\obj\Debug\net6.0\ref\ApiCaminhao.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\FluentAssertions.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\System.Web.Http.dll
+E:\Projetos\ApiCaminhão\scr\ApiCaminhao\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

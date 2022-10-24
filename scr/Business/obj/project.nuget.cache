@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "wAGx0ojY9HKtDmQ37OYzzrz6Hs6D3fRRTZ3aLmr1Tppcc8bu9fZMEGLMIHjpqBk0v3vU0RhnXjFXF557OZqGDQ==",
+  "dgSpecHash": "DKGPdsPylpX7t9QIqL9elkcVPRtCjOTPJiTsKG3M7sPD0AysbrU6/+GE9afbb27PD9o8OadDPTqaMg/DXwmvsg==",
   "success": true,
   "projectFilePath": "E:\\Projetos\\ApiCaminhão\\scr\\Business\\Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Amanda Luiza\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512"
+    "C:\\Users\\Amanda Luiza\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\Amanda Luiza\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.10\\microsoft.aspnetcore.jsonpatch.6.0.10.nupkg.sha512",
+    "C:\\Users\\Amanda Luiza\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.10.nupkg.sha512",
+    "C:\\Users\\Amanda Luiza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Amanda Luiza\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Amanda Luiza\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
